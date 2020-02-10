@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	profile        = flag.String("profile", "", "Profile to use")
+	profile        = flag.String("p", "", "Profile to use")
 	tagValue       = flag.String("t", "", "Tag to search for")
 	instanceValue  = flag.String("i", "", "Instance to search for")
 	quiet          = flag.Bool("q", false, "Only show the IP addresses")
